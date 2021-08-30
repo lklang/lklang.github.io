@@ -20,25 +20,47 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"lklang.com","root":"/","images":"/images","scheme":"Pisces","version":"8.7.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
-<meta name="description" content="不弛于空想 不骛于虚声">
-<meta property="og:type" content="website">
-<meta property="og:title" content="初学者 lklang">
-<meta property="og:url" content="http://lklang.com/index.html">
+<meta name="description" content="来源：小木虫论坛 作者：xueyinyuan 1、 PeakFit 软件简介 PeakFit 是一款常用的信号处理软件，通过对光谱和色谱信号中的谱峰进行去基线、平滑、寻峰和拟合等操作，可以准确获谱峰的强度、位置、积分面积、半高宽等信息。PeakFit 软件最早是在1980 年代由AISN Software 公司Ron Brown 开发出来，并由 Jandel Scientific Software">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）">
+<meta property="og:url" content="http://lklang.com/2021/06/24/%E5%88%A9%E7%94%A8PeakFit%E5%A4%84%E7%90%86%E6%8B%89%E6%9B%BC%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%95%99%E7%A8%8B%EF%BC%88%E5%90%AB%E6%A0%87%E5%87%86%E5%8C%96%E3%80%81%E5%B9%B3%E6%BB%91%E3%80%81%E5%8E%BB%E5%9F%BA%E7%BA%BF%E3%80%81%E5%AF%BB%E5%B3%B0%E3%80%81%E6%8B%9F%E5%90%88%E7%AD%89%E6%93%8D%E4%BD%9C%EF%BC%89/index.html">
 <meta property="og:site_name" content="初学者 lklang">
-<meta property="og:description" content="不弛于空想 不骛于虚声">
+<meta property="og:description" content="来源：小木虫论坛 作者：xueyinyuan 1、 PeakFit 软件简介 PeakFit 是一款常用的信号处理软件，通过对光谱和色谱信号中的谱峰进行去基线、平滑、寻峰和拟合等操作，可以准确获谱峰的强度、位置、积分面积、半高宽等信息。PeakFit 软件最早是在1980 年代由AISN Software 公司Ron Brown 开发出来，并由 Jandel Scientific Software">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543007540.jpg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543025386.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543036126.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543046897.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543056536.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543069638.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543089297.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543099199.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543111101.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543213304.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624543259611.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624542889100.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624542868279.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624542844769.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624542800107.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624542773953.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624542747984.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624542726265.jpeg">
+<meta property="og:image" content="file://C:/Users/Administrator/Documents/post-images/1624542704990.jpeg">
+<meta property="article:published_time" content="2021-06-24T14:38:26.000Z">
+<meta property="article:modified_time" content="2021-08-29T14:39:04.263Z">
 <meta property="article:author" content="lklang">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="file://C:/Users/Administrator/Documents/post-images/1624543007540.jpg">
 
 
-<link rel="canonical" href="http://lklang.com/">
+<link rel="canonical" href="http://lklang.com/2021/06/24/%E5%88%A9%E7%94%A8PeakFit%E5%A4%84%E7%90%86%E6%8B%89%E6%9B%BC%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%95%99%E7%A8%8B%EF%BC%88%E5%90%AB%E6%A0%87%E5%87%86%E5%8C%96%E3%80%81%E5%B9%B3%E6%BB%91%E3%80%81%E5%8E%BB%E5%9F%BA%E7%BA%BF%E3%80%81%E5%AF%BB%E5%B3%B0%E3%80%81%E6%8B%9F%E5%90%88%E7%AD%89%E6%93%8D%E4%BD%9C%EF%BC%89/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://lklang.com/2021/06/24/%E5%88%A9%E7%94%A8PeakFit%E5%A4%84%E7%90%86%E6%8B%89%E6%9B%BC%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%95%99%E7%A8%8B%EF%BC%88%E5%90%AB%E6%A0%87%E5%87%86%E5%8C%96%E3%80%81%E5%B9%B3%E6%BB%91%E3%80%81%E5%8E%BB%E5%9F%BA%E7%BA%BF%E3%80%81%E5%AF%BB%E5%B3%B0%E3%80%81%E6%8B%9F%E5%90%88%E7%AD%89%E6%93%8D%E4%BD%9C%EF%BC%89/","path":"2021/06/24/利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）/","title":"利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>初学者 lklang</title>
+<title>利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作） | 初学者 lklang</title>
   
 
 
@@ -224,171 +246,17 @@
 </noscript>
 
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://lklang.com/2021/08/29/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="lklang">
-      <meta itemprop="description" content="不弛于空想 不骛于虚声">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="初学者 lklang">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/08/29/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2021-08-29 19:49:45 / 修改时间：21:50:25" itemprop="dateCreated datePublished" datetime="2021-08-29T19:49:45+08:00">2021-08-29</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://lklang.com/2021/06/27/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="lklang">
-      <meta itemprop="description" content="不弛于空想 不骛于虚声">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="初学者 lklang">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/06/27/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" class="post-title-link" itemprop="url">物理吸附数据分析</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2021-06-27 22:39:29" itemprop="dateCreated datePublished" datetime="2021-06-27T22:39:29+08:00">2021-06-27</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-08-29 22:40:01" itemprop="dateModified" datetime="2021-08-29T22:40:01+08:00">2021-08-29</time>
-      </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>孔径分布坐标分析</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/06/27/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://lklang.com/2021/06/24/%E5%88%A9%E7%94%A8PeakFit%E5%A4%84%E7%90%86%E6%8B%89%E6%9B%BC%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%95%99%E7%A8%8B%EF%BC%88%E5%90%AB%E6%A0%87%E5%87%86%E5%8C%96%E3%80%81%E5%B9%B3%E6%BB%91%E3%80%81%E5%8E%BB%E5%9F%BA%E7%BA%BF%E3%80%81%E5%AF%BB%E5%B3%B0%E3%80%81%E6%8B%9F%E5%90%88%E7%AD%89%E6%93%8D%E4%BD%9C%EF%BC%89/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -401,9 +269,9 @@
       <meta itemprop="name" content="初学者 lklang">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/06/24/%E5%88%A9%E7%94%A8PeakFit%E5%A4%84%E7%90%86%E6%8B%89%E6%9B%BC%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%95%99%E7%A8%8B%EF%BC%88%E5%90%AB%E6%A0%87%E5%87%86%E5%8C%96%E3%80%81%E5%B9%B3%E6%BB%91%E3%80%81%E5%8E%BB%E5%9F%BA%E7%BA%BF%E3%80%81%E5%AF%BB%E5%B3%B0%E3%80%81%E6%8B%9F%E5%90%88%E7%AD%89%E6%93%8D%E4%BD%9C%EF%BC%89/" class="post-title-link" itemprop="url">利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -433,7 +301,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>来源：小木虫论坛 作者：xueyinyuan</p>
+        <p>来源：小木虫论坛 作者：xueyinyuan</p>
 <p>1、 PeakFit 软件简介</p>
 <p>PeakFit 是一款常用的信号处理软件，通过对光谱和色谱信号中的谱峰进行去基线、平滑、寻峰和拟合等操作，可以准确获谱峰的强度、位置、积分面积、半高宽等信息。PeakFit 软件最早是在1980 年代由AISN Software 公司Ron Brown 开发出来，并由 Jandel Scientific Software对外分发销售。2004 年Systat Software 公司从SPSS Inc.获得PeakFit 的完整版权并将其用于开发SigmaPlot 等Sigma 系列软件。目前PeakFit 最新的版本是4.12，于2007 年开发完成。</p>
 <p>2、 软件基本操作</p>
@@ -568,7 +436,6 @@
 <p>谱峰拟合方程选择可参考下列文献：</p>
 <p>X. Yuan and R. A. Mayanovic, 2017. An Empirical Study on Raman Peak Fitting and ItsApplication to Raman Quantitative Research. Applied Spectroscopy. (DOI:10.1177/0003702817721527)</p>
 
-      
     </div>
 
     
@@ -576,245 +443,25 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://lklang.com/2021/01/01/XPSPEAK%E5%88%86%E5%B3%B0%E6%8B%9F%E5%90%88%E8%A6%81%E7%82%B9/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="lklang">
-      <meta itemprop="description" content="不弛于空想 不骛于虚声">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="初学者 lklang">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/01/01/XPSPEAK%E5%88%86%E5%B3%B0%E6%8B%9F%E5%90%88%E8%A6%81%E7%82%B9/" class="post-title-link" itemprop="url">XPSPEAK分峰拟合要点</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2021-01-01 22:37:25" itemprop="dateCreated datePublished" datetime="2021-01-01T22:37:25+08:00">2021-01-01</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-08-29 22:37:45" itemprop="dateModified" datetime="2021-08-29T22:37:45+08:00">2021-08-29</time>
-      </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>归纳总结于网络，操作步骤移步B站。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/01/01/XPSPEAK%E5%88%86%E5%B3%B0%E6%8B%9F%E5%90%88%E8%A6%81%E7%82%B9/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://lklang.com/2020/12/30/%E7%89%A9%E8%B4%A8%E8%B4%A8%E9%87%8F%E7%99%BE%E5%88%86%E5%90%AB%E9%87%8F%E8%AE%A1%E7%AE%97/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="lklang">
-      <meta itemprop="description" content="不弛于空想 不骛于虚声">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="初学者 lklang">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2020/12/30/%E7%89%A9%E8%B4%A8%E8%B4%A8%E9%87%8F%E7%99%BE%E5%88%86%E5%90%AB%E9%87%8F%E8%AE%A1%E7%AE%97/" class="post-title-link" itemprop="url">物质质量百分含量计算</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2020-12-30 22:35:34" itemprop="dateCreated datePublished" datetime="2020-12-30T22:35:34+08:00">2020-12-30</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-08-29 22:37:50" itemprop="dateModified" datetime="2021-08-29T22:37:50+08:00">2021-08-29</time>
-      </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>建立峰面积和质量百分含量的关系:</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/12/30/%E7%89%A9%E8%B4%A8%E8%B4%A8%E9%87%8F%E7%99%BE%E5%88%86%E5%90%AB%E9%87%8F%E8%AE%A1%E7%AE%97/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/01/01/XPSPEAK%E5%88%86%E5%B3%B0%E6%8B%9F%E5%90%88%E8%A6%81%E7%82%B9/" rel="prev" title="XPSPEAK分峰拟合要点">
+                  <i class="fa fa-chevron-left"></i> XPSPEAK分峰拟合要点
+                </a>
             </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+            <div class="post-nav-item">
+                <a href="/2021/06/27/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" rel="next" title="物理吸附数据分析">
+                  物理吸附数据分析 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://lklang.com/2020/12/29/About/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="lklang">
-      <meta itemprop="description" content="不弛于空想 不骛于虚声">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="初学者 lklang">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2020/12/29/About/" class="post-title-link" itemprop="url">About</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2020-12-29 20:28:26" itemprop="dateCreated datePublished" datetime="2020-12-29T20:28:26+08:00">2020-12-29</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-08-29 22:33:23" itemprop="dateModified" datetime="2021-08-29T22:33:23+08:00">2021-08-29</time>
-      </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="关于Blog"><a href="#关于Blog" class="headerlink" title="关于Blog"></a>关于Blog</h3><ul>
-<li>用于分享生物质催化转化相关知识以及我的学习动态，偶尔分享日常。</li>
-</ul>
-<h3 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h3><ul>
-<li>一个普通的在读研究生；</li>
-<li>化学工程，研究方向是生物质催化转化；</li>
-<li>你可以发邮件(<a href="mailto:&#108;&#x75;&#x6b;&#117;&#110;&#108;&#x61;&#110;&#103;&#64;&#49;&#54;&#51;&#46;&#99;&#x6f;&#109;">&#108;&#x75;&#x6b;&#117;&#110;&#108;&#x61;&#110;&#103;&#64;&#49;&#54;&#51;&#46;&#99;&#x6f;&#109;</a>)与我交流。</li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
