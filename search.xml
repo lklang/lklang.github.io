@@ -9,7 +9,7 @@
 <h3 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h3><ul>
 <li>一个普通的在读研究生；</li>
 <li>化学工程，研究方向是生物质催化转化；</li>
-<li>你可以发邮件(<a href="mailto:&#108;&#x75;&#107;&#117;&#110;&#108;&#97;&#110;&#x67;&#64;&#x31;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#108;&#x75;&#107;&#117;&#110;&#108;&#97;&#110;&#x67;&#64;&#x31;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a>)与我交流。</li>
+<li>你可以发邮件(<a href="mailto:&#x6c;&#x75;&#107;&#x75;&#x6e;&#108;&#97;&#110;&#103;&#x40;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#x6c;&#x75;&#107;&#x75;&#x6e;&#108;&#97;&#110;&#103;&#x40;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;</a>)与我交流。</li>
 </ul>
 ]]></content>
   </entry>
@@ -52,17 +52,17 @@
     <title>Hello World</title>
     <url>/hello-world.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+</code></pre>
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+</code></pre>
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+</code></pre>
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+</code></pre>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
@@ -70,16 +70,6 @@
     <title>test</title>
     <url>/test.html</url>
     <content><![CDATA[<p>test test test</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>物理吸附数据分析</title>
-    <url>/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.html</url>
-    <content><![CDATA[<p>孔径分布坐标分析</p>
-<span id="more"></span>
-<p>来源：小木虫论坛</p>
-<p>BJH的孔径分布曲线的纵坐标有两种：dV/dD和dV/dlogD。前者的单位是cm^3^/(g·nm)，后者的单位是cm^3^/g。<br>其中V代表吸附量，D代表孔径（diameter）。D是由相对压力(p/p<del>0</del>)经Kelvin方程后校正后换算得到的，相对压力越高，D越大。<br>因此初始的吸附等温线上（V<del>(STP)</del>对p/p<del>0</del>）就可以演算成V对D曲线，而dV/dD就是该曲线各点的微分。由此，我们可以得出：在等温线上，某一压力区域的吸附曲线如果越陡峭的，那在这个分压区孔径分布最为集中。</p>
-<p>根据简单的微分计算，dV/dlogD = 2.3026×D×dV/dD<br>在这种情况下，对同一个吸附或脱附支使用dV/dD或dV/dlogD就会得到不同形状的曲线，前者会把小孔径小区域的分布放大，而后者会把大孔径小区域的分布放大。但是总的来说，孔径分布的主峰位置不会改变。<br>至于究竟使用dV/dD和dV/dlogD，一般文献使用dV/dD比较多。</p>
 ]]></content>
   </entry>
   <entry>
@@ -219,6 +209,19 @@
 <p>T. W. Randolph, 2006. Scale-based normalization of spectral data. Cancer Biomarkers, 2006,2(3): 135-144.（DOI: 10.3233/CBM-2006-23-405）。</p>
 <p>谱峰拟合方程选择可参考下列文献：</p>
 <p>X. Yuan and R. A. Mayanovic, 2017. An Empirical Study on Raman Peak Fitting and ItsApplication to Raman Quantitative Research. Applied Spectroscopy. (DOI:10.1177/0003702817721527)</p>
+]]></content>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>物理吸附数据分析</title>
+    <url>/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.html</url>
+    <content><![CDATA[<p>孔径分布坐标分析</p>
+<span id="more"></span>
+<p>来源：小木虫论坛</p>
+<p>BJH的孔径分布曲线的纵坐标有两种：dV/dD和dV/dlogD。前者的单位是cm^3^/(g·nm)，后者的单位是cm^3^/g。<br>其中V代表吸附量，D代表孔径（diameter）。D是由相对压力(p/p<del>0</del>)经Kelvin方程后校正后换算得到的，相对压力越高，D越大。<br>因此初始的吸附等温线上（V<del>(STP)</del>对p/p<del>0</del>）就可以演算成V对D曲线，而dV/dD就是该曲线各点的微分。由此，我们可以得出：在等温线上，某一压力区域的吸附曲线如果越陡峭的，那在这个分压区孔径分布最为集中。</p>
+<p>根据简单的微分计算，dV/dlogD = 2.3026×D×dV/dD<br>在这种情况下，对同一个吸附或脱附支使用dV/dD或dV/dlogD就会得到不同形状的曲线，前者会把小孔径小区域的分布放大，而后者会把大孔径小区域的分布放大。但是总的来说，孔径分布的主峰位置不会改变。<br>至于究竟使用dV/dD和dV/dlogD，一般文献使用dV/dD比较多。</p>
 ]]></content>
   </entry>
   <entry>
