@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于我</title>
-    <url>/About.html</url>
-    <content><![CDATA[<h3 id="关于Blog"><a href="#关于Blog" class="headerlink" title="关于Blog"></a>关于Blog</h3><ul>
-<li>用于分享生物质催化转化相关知识以及我的学习动态，偶尔分享日常。</li>
-</ul>
-<h3 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h3><ul>
-<li>一个普通的在读研究生；</li>
-<li>化学工程，研究方向是生物质催化转化；</li>
-<li>你可以发邮件(<a href="mailto:&#x6c;&#x75;&#107;&#x75;&#x6e;&#108;&#97;&#110;&#103;&#x40;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#x6c;&#x75;&#107;&#x75;&#x6e;&#108;&#97;&#110;&#103;&#x40;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;</a>)与我交流。</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>XPSPEAK分峰拟合要点</title>
     <url>/XPSPEAK%E5%88%86%E5%B3%B0%E6%8B%9F%E5%90%88%E8%A6%81%E7%82%B9.html</url>
-    <content><![CDATA[<p>归纳总结于网络，操作步骤移步B站。</p>
-<span id="more"></span>
-
-
-<ol>
+    <content><![CDATA[<ol>
 <li>荷电校正</li>
 </ol>
 <p>当用XPS测量绝缘体或者半导体时，由于光电子的连续发射而得不到电子补充，使得样品表面出现电子亏损，这种现象称为“荷电效应”。</p>
-<p>荷电效应将使样品表面出现一稳定的电势V<del>s</del>，对电子的逃离有一定束缚作用。因此荷电效应将引起能量的位移，使得测量的结合能偏离真实值，造成测试结果的偏差。在用XPS测量绝缘体或者半导体时，需要对荷电效应所引起的偏差进行校正，称之为“荷电校正”。</p>
+<p>荷电效应将使样品表面出现一稳定的电势V<sub>s</sub>，对电子的逃离有一定束缚作用。因此荷电效应将引起能量的位移，使得测量的结合能偏离真实值，造成测试结果的偏差。在用XPS测量绝缘体或者半导体时，需要对荷电效应所引起的偏差进行校正，称之为“荷电校正”。</p>
+<span id="more"></span>
+
 <ul>
 <li>将C1<em>s</em>的数据复制到origin中，做成曲线图，并通过数据读取工具来识别C1<em>s</em>谱中的峰值坐标，以其与C1<em>s</em>标准值(284.8 eV)之差作为荷电校正值(Δ)来矫正其他元素的结合能。</li>
 </ul>
@@ -37,9 +22,7 @@
 </li>
 <li><p>FWHM：同一价态相等</p>
 </li>
-<li><p>峰面积：2p<del>1/2</del> : 2p<del>3/2</del> = 1 : 2,  4p不符合</p>
-<p>​                 3d<del>3/2</del> : 3d<del>5/2</del> = 2 : 3</p>
-<p>​                 4f<del>5/2</del> : 4f<del>7/2</del> = 3 : 4</p>
+<li><p>峰面积：<br>2<em>p</em><sub>1/2</sub> : 2<em>p</em><sub>3/2</sub> = 1 : 2<br>3<em>d</em><sub>3/2</sub> : 3<em>d</em><sub>5/2</sub> = 2 : 3<br>4<em>f</em><sub>5/2</sub> : 4<em>f</em><sub>7/2</sub> = 3 : 4</p>
 </li>
 <li><p>过渡金属2p轨道谱线不对称</p>
 </li>
@@ -47,41 +30,89 @@
 </li>
 </ul>
 ]]></content>
+      <categories>
+        <category>科研软件</category>
+      </categories>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/hello-world.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>关于我</title>
+    <url>/about.html</url>
+    <content><![CDATA[<h3 id="基本情况"><a href="#基本情况" class="headerlink" title="基本情况"></a>基本情况</h3><p>卢琨朗，中国矿业大学硕士研究生，师从宗志敏教授，致力于生物质催化转化的研究。邮箱📧:<a href="mailto:&#x6c;&#117;&#107;&#x75;&#110;&#108;&#x61;&#110;&#x67;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#109;">&#x6c;&#117;&#107;&#x75;&#110;&#108;&#x61;&#110;&#x67;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#109;</a></p>
+<h3 id="教育背景"><a href="#教育背景" class="headerlink" title="教育背景"></a>教育背景</h3><ul>
+<li><p>2019.09-至今<br>硕士，中国矿业大学，化学工程专业</p>
+</li>
+<li><p>2015.09-2019.06<br>学士，河南城建学院，化学工程与工艺专业</p>
+</li>
+</ul>
+<h3 id="科研项目"><a href="#科研项目" class="headerlink" title="科研项目"></a>科研项目</h3><p>  国家自然基金面上项目：粗酚的催化烷基化机理考察和过程优化   (参与，在研)</p>
+<span id="more"></span>
+
+<h3 id="科研成果"><a href="#科研成果" class="headerlink" title="科研成果"></a>科研成果</h3><ol>
+<li><strong>Kun-Lang Lu</strong>, Xian-Yong Wei<sup>+</sup>, et al. Solvent effect on the hydroconversion of lignin-related model compounds over MoO<sub>3</sub>, Energy Fuels 2021, 35, 12142-12150.   (已出版)</li>
+<li><strong>Kun-Lang Lu</strong>, Fan Yin, et al. Promotional effect of metallic cobalt and iron on nickel-based catalysts for the deoxygenation of lignin derivatives. J. Catal.   (审稿中)</li>
+<li>Fan Yin, <strong>Kun-Lang Lu</strong>, et al. Fabrication of N/O self-doped hierarchical porous carbons derived from modified coal tar pitch for high-performance supercapacitors. Fuel   (修稿中)</li>
+<li>Fan Yin, Xian-Yong Wei<sup>+</sup>, Wei-Wei Yan, Zi-Chun Fan, <strong>Kun-Lang Lu</strong>, et at. Preparation of hierarchical porous carbons from a coal tar pitch modified by fluid catalytic cracking oil for a high-performance supercapacitor, J. Mater. Sci.   (已出版)</li>
+</ol>
+<h3 id="曾获荣誉"><a href="#曾获荣誉" class="headerlink" title="曾获荣誉"></a>曾获荣誉</h3><ul>
+<li><p>硕士<br>二等奖学金</p>
+</li>
+<li><p>本科<br>国家励志奖学金（2次）；二等奖学金；校三好学生；校优秀志愿者（3次）；校优秀团员；校三下乡先进个人等</p>
+</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/test.html</url>
-    <content><![CDATA[<p>test test test</p>
+    <title>论文被 Energy Fuels 录用</title>
+    <url>/Solvent%20effect%20on%20the%20hydroconversion%20of%20lignin-related%20model%20compounds%20over%20MoO3.html</url>
+    <content><![CDATA[<p><strong>Kun-Lang Lu</strong>, Xian-Yong Wei<sup>+</sup>, Guang-Hui Liu, Wei-Wei Yan, Fan Yin, Fa-Zhan Mao, Feng-Hua Wei, Zhi-Min Zong, and Hong-Cun Bai. <a href="https://pubs.acs.org/doi/abs/10.1021/acs.energyfuels.1c00935">Solvent effect on the hydroconversion of lignin-related model compounds over MoO<sub>3</sub></a>, Energy Fuels 2021, 35, 12142-12150.</p>
+<span id="more"></span>
+<p><strong>Abstract</strong></p>
+<p>Benzyloxybenzene (BOB) and oxybis(methylene)dibenzene (OBMDB) were used as lignin-related model compounds (LRMCs). Three protic solvents (PSs), <em>i.e.</em>, methanol, ethanol (<em>E</em>), and isopropanol, and two aprotic solvents (ASs), <em>i.e.</em>, ethyl acetate and n-hexane, were selected to evaluate their effects on the catalytic hydroconversion (CHC) of the LRMCs over MoO<sub>3</sub>. Under the same conditions, the PSs are more effective for the CHC of LRMCs than the ASs. Under the optimal conditions in <em>E</em>, both BOB and OBMDB are completely converted and the total product yields are 200 and 198.1 mol %, respectively. MoO<sub>3</sub> undergoes the surface modification, such as carburization and oxygen vacancy (OV) formation, during the reaction, which is crucial for the CHC of the LRMCs. The OV formation is determined by the self-transformation degree of PSs and the dispersity of ASs to MoO<sub>3</sub> through the analyses of solvent-related environmental variables. In addition, solvents affect the CHC of LRMCs by controlling the adsorption performance of MoO<sub>3</sub>.</p>
 ]]></content>
+      <categories>
+        <category>成果</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>论文被 Journal of Materials Science 录用</title>
+    <url>/Preparation%20of%20hierarchical%20porous%20carbons%20from%20a%20coal%20tar%20pitch%20modified%20by%20fluid%20catalytic%20cracking%20oil%20for%20a%20high-performance%20supercapacitor.html</url>
+    <content><![CDATA[<p>Fan Yin, Xian-Yong Wei, Wei-Wei Yan, Zi-Chun Fan, <strong>Kun-Lang Lu</strong>, Feng-Hua Wei, Fa-Zhan Mao, and Zhi-Min Zong. <a href="https://link.springer.com/article/10.1007/s10853-021-06317-y">Preparation of hierarchical porous carbons from a coal tar pitch modified by fluid catalytic cracking oil for a high-performance supercapacitor</a>, Energy Fuels 2021, 35, 12142-12150.</p>
+<span id="more"></span>
+
+<p><strong>Abstract</strong> </p>
+<p>A template-free strategy was designed to prepare hierarchical porous carbons (HPCs) using fluid catalytic cracking oil modified a coal tar pitch (CTP). The resulting HPCs possess large specific surface areas, reasonable pore size distributions, and wrinkled structures, which could improve the overall electrochemical performance. They exhibit a specific capacitance value of 329 F g<sup>−1</sup> at 0.5 A g<sup>−1</sup> and still maintain 220 F g<sup>−1</sup> at 20 A g<sup>−1</sup>, manifesting the remarkable rate capability. Additionally, the assembled symmetrical supercapacitor delivers a highest energy density of 23.6 Wh kg<sup>−1</sup> at a power density of 500 W kg<sup>−1</sup> and outstanding cycle stability of 92.8% capacitance retention after 10000 cycles. This work paves a new way to fabricate advanced carbon materials from low-cost CTP and provides a promising approach for value-added utilization of CTP.</p>
+]]></content>
+      <categories>
+        <category>成果</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>物理吸附数据分析</title>
+    <url>/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.html</url>
+    <content><![CDATA[<p>孔径分布坐标分析</p>
+<p>BJH的孔径分布曲线的纵坐标有两种：dV/dD和dV/dlogD。前者的单位是cm<sup>3</sup>/(g·nm)，后者的单位是cm<sup>3</sup>/g。<br>其中V代表吸附量，D代表孔径（diameter）。D是由相对压力(p/p<sub>0</sub>)经Kelvin方程后校正后换算得到的，相对压力越高，D越大。<br>因此初始的吸附等温线上（V<sub>(STP)</sub>对p/p<sub>0</sub>）就可以演算成V对D曲线，而dV/dD就是该曲线各点的微分。由此，我们可以得出：在等温线上，某一压力区域的吸附曲线如果越陡峭的，那在这个分压区孔径分布最为集中。</p>
+<span id="more"></span>
+
+<p>根据简单的微分计算，dV/dlogD = 2.3026×D×dV/dD<br>在这种情况下，对同一个吸附或脱附支使用dV/dD或dV/dlogD就会得到不同形状的曲线，前者会把小孔径小区域的分布放大，而后者会把大孔径小区域的分布放大。但是总的来说，孔径分布的主峰位置不会改变。<br>至于究竟使用dV/dD还是dV/dlogD，一般文献使用dV/dD比较多。</p>
+]]></content>
+      <categories>
+        <category>表征技术</category>
+      </categories>
+      <tags>
+        <tag>物理吸附</tag>
+      </tags>
   </entry>
   <entry>
     <title>利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）</title>
     <url>/%E5%88%A9%E7%94%A8PeakFit%E5%A4%84%E7%90%86%E6%8B%89%E6%9B%BC%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%95%99%E7%A8%8B%EF%BC%88%E5%90%AB%E6%A0%87%E5%87%86%E5%8C%96%E3%80%81%E5%B9%B3%E6%BB%91%E3%80%81%E5%8E%BB%E5%9F%BA%E7%BA%BF%E3%80%81%E5%AF%BB%E5%B3%B0%E3%80%81%E6%8B%9F%E5%90%88%E7%AD%89%E6%93%8D%E4%BD%9C%EF%BC%89.html</url>
-    <content><![CDATA[<p>来源：小木虫论坛 作者：xueyinyuan</p>
-<p>1、 PeakFit 软件简介</p>
+    <content><![CDATA[<p>1、 PeakFit 软件简介</p>
 <p>PeakFit 是一款常用的信号处理软件，通过对光谱和色谱信号中的谱峰进行去基线、平滑、寻峰和拟合等操作，可以准确获谱峰的强度、位置、积分面积、半高宽等信息。PeakFit 软件最早是在1980 年代由AISN Software 公司Ron Brown 开发出来，并由 Jandel Scientific Software对外分发销售。2004 年Systat Software 公司从SPSS Inc.获得PeakFit 的完整版权并将其用于开发SigmaPlot 等Sigma 系列软件。目前PeakFit 最新的版本是4.12，于2007 年开发完成。</p>
+<span id="more"></span>
+
 <p>2、 软件基本操作</p>
-<p>PeakFit 软件基本操作界面如图2.1。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543007540.jpg"></p>
-<center>图2.1 PeakFit 软件基本操作界面</center>
+<p>PeakFit 软件基本操作界面如图2。 </p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/2.1.jpg)</center>
+<center>图2 PeakFit 软件基本操作界面</center>
 
 
 <p>菜单栏基本操作及对应工具栏图标为：</p>
@@ -94,41 +125,41 @@
 <p>注：本人目前很少用到傅里叶转换，相关内容本教程暂不涉及，有需要者可通过Help 获取。</p>
 <p>3、 数据处理过程（拉曼光谱为例）</p>
 <p>3.1 数据导入：通过File—Import、或点击按钮导入数据，支持ASCII（如.txt、.prn、.dat）、Excel、SigmaPlot、SPSS 等格式文件（此处以软件自带的Sample.xls 文件为例）。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543025386.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.1.1.jpeg)</center>
 <center>图3.1.1 导入数据</center>
 
 
 <p>如果文件中包含多列数据，依次选择两列作为X 轴和Y 轴。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543036126.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.1.2.jpeg)</center>
 <center>图3.1.2 选择X 轴和Y 轴</center>
 
 
 <p>确定文件名称和X 轴Y 轴标题。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543046897.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.1.3.jpeg)</center>
 <center>图3.1.3 确定文件名称和X 轴Y 轴标题</center>
 
 
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543056536.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.1.4.jpeg)</center>
 <center>图3.1.4 数据导入完成</center>
 
 
-<p>如果导入的数据只有两列，软件会自动跳过图3.1.2 步骤；如果数据点较多（如100 ~ 4000cm-1），软件会提示是否减少数据点数量，通常选“否”：</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543069638.jpeg"></p>
+<p>如果导入的数据只有两列，软件会自动跳过图3.1.2 步骤；如果数据点较多（如100 ~ 4000cm<sup>-1</sup>），软件会提示是否减少数据点数量，通常选“否”：</p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.1.5.jpeg)</center>
 <center>图3.1.5 软件提示数据点过多，是否减少</center>
 
 
 <p>3.2 选择待拟合数据范围：通过Prepare—Section、或点击进入以下界面。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543089297.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.2.1.jpeg)</center>
 <center>图3.2.1 选择待拟合数据点</center>
 
 
-<p>数据选择可通过输入Xi 和Xf 值、然后点击Apply New 确定。也可通过鼠标操作完成，具体为：点住左键，向右拉动选择去掉的数据点，向左拉动为选择待拟合的数据点，操作之后上图显示待拟合谱峰，下图显示完整数据，其中未被选择的数据点变为灰色。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543099199.jpeg"></p>
+<p>数据选择可通过输入X<sub>i</sub> 和X<sub>f</sub> 值、然后点击Apply New 确定。也可通过鼠标操作完成，具体为：点住左键，向右拉动选择去掉的数据点，向左拉动为选择待拟合的数据点，操作之后上图显示待拟合谱峰，下图显示完整数据，其中未被选择的数据点变为灰色。</p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.2.2.jpeg)</center>
 <center>图3.2.2 选择待拟合数据点</center>
 
 
 <p>数据选择范围不仅包括整个谱峰，还需要包括谱峰两侧的基线数据。如果存在异常数据点，可通过单击该点进行排除，未被选中的数据点会显示为灰色。数据选择完成，点击OK 返回，此时界面中只显示待拟合的谱峰。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543111101.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.2.3.jpeg)</center>
 <center>图3.2.3 数据选择完成</center>
 
 
@@ -137,14 +168,14 @@
 <p>注：如果需要用到谱峰强度信息，则不能对数据进行面积标准化；如果用到的是谱峰强度比，则可在“3.2 选择待拟合数据范围”操作之前进行面积标准化。</p>
 <p>选择左侧的OK 按钮确定或者Undo 按钮撤销标准化操作。</p>
 <p>3.3.2 去基线（可选操作）：通过单击按钮进入去基线操作界面。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543213304.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.3.2.jpeg)</center>
 <center>图3.3.2 去基线</center>
 
 
 <p>可通过左侧算法改变基线拟合方式，Initial, Final Lin—通过首尾两个数据点线性拟合；Progressive Lin—选择首末一段范围内数据点进行线性拟合，适用于基线清晰的情况；2nd DerivZero—通过不同方程（如线性、多项式、对数等）对基线进行拟合，此处选择Progressive Lin。</p>
 <p>可通过单击查看基线方程，确定之后单击将基线从原始数据中去掉。去基线操作可单独进行，也可在谱峰拟合过程中同步进行。</p>
-<p>3.3.3 平滑（可选操作）：平滑操作主要针对峰宽较大、高频噪音明显的谱峰，如H2O 的对称伸缩振动峰。通过Prepare—Smoth、或单击按钮进入以下界面：</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624543259611.jpeg"></p>
+<p>3.3.3 平滑（可选操作）：平滑操作主要针对峰宽较大、高频噪音明显的谱峰，如H<sub>2</sub>O 的对称伸缩振动峰。通过Prepare—Smoth、或单击按钮进入以下界面：</p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.3.3.jpeg)</center>
 <center>图3.3.3 谱峰平滑</center>
 
 
@@ -153,7 +184,7 @@
 <p>3.4 谱峰拟合</p>
 <p>3.4.1 寻峰</p>
 <p>通过AutoFit—AutoFit Peaks I Residuals 或单击、AutoFit Peaks II Second Derivative 单击、AutoFit Peaks III Deconvolution 单击进行谱峰拟合操作，此处以AutoFit Peaks I Residuals为例。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624542889100.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.4.1.jpeg)</center>
 <center>图3.4.1 谱峰拟合操作界面</center>
 
 
@@ -163,79 +194,75 @@
 <p>注：不同分布方程适用于拟合不同形态的谱峰，一般来讲非晶体和H2O 拉曼峰适合GaussAmp/Area 方程，对称的晶体拉曼峰适合Gauss + Lor Amp/Area 或Voigt Amp/Area 方程，不对称的晶体拉曼峰适合Pearson IV 方程，外源荧光或单色光的谱峰适合Beta Amp/Area 峰。</p>
 <p>左侧AutoScan选项，选择寻峰操作。Amp%确定寻峰的临界强度，即只有高于该强度的数据才被识别为信号，低于该强度的数据被识别为噪音。实际操作中如果软件识别出太多不必要的峰，可通过增大Amp%的值减少多余的弱峰。Vary Width 和Vary Shape 主要用于多峰拟合中允许不同峰有不同的峰宽和形态，Add Residuals 和Allow Negative 对拟合结果影响不大。</p>
 <p>注：某些情况下软件自动寻峰结果与真实结果相差较大，可通过手动操作对寻峰结果进行编辑，具体为：左键单击空白处可手动增加一个峰，左键单击峰顶点可屏蔽该峰，左键双击峰顶点去掉该峰，右键单击峰顶点调出更多操作（更改拟合方程、更改拟合参数、锁定参数等）。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624542868279.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.4.2.jpeg)</center>
 <center>图3.4.2 拉曼峰编辑</center>
 
 
 <p>3.4.2 拟合</p>
 <p>进行数据拟合的迭代运算，单击小窗口中的Addl Adjust 按钮确认本次运算结果，直到结果不再改变。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624542844769.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.4.3.jpeg)</center>
 <center>图3.4.3 多次迭代进行数据拟合</center>
 
 
 <p>迭代运算也可通过单击按钮进入以下界面后点击Addl Adjust 进行（同样需要重复进行直至结果不再改变）。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624542800107.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.4.4.jpeg)</center>
 <center>图3.4.4 多次迭代进行数据拟合</center>
 
 
 <p>3.4.3 结果确认和导出</p>
 <p>通过单击图3.4.3 小窗口或3.4.4 左侧的Review Fit 按钮查看谱峰拟合结果，也可通过单击图3.4.1 左下方按钮查看拟合结果。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624542773953.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.4.5.jpeg)</center>
 <center>图3.4.5 查看拟合结果</center>
 
 
 <p>Export：将拟合结果导出到文件中，可选ACSII、Excel 等数据格式。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624542747984.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.4.6.jpeg)</center>
 <center>图3.4.6 将拟合结果导出到文件中</center>
 
 
 <p>Numeric：查看拟合得到的谱峰数据，包括拟合参数、谱峰位置、强度、面积、半高宽、对称性等参数以及各参数的标准差等。 如果只需要查看最简单的谱峰信息，可通过单击图3.4.1 左侧按钮获得。可通过File—SaveAs 将结果导出到文件中。</p>
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624542726265.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.4.7.jpeg)</center>
 <center>图3.4.7 查看谱峰拟合结果</center>
 
 
-<p><img src="file://C:/Users/Administrator/Documents/post-images/1624542704990.jpeg"></p>
+<center>![image](https://github.com/lklang/blogpictures/raw/master/peakfit/3.4.8.jpeg)</center>
 <center>图3.4.8 将谱峰拟合结果导出到文件中</center>
 
 
 <p>Data：查看详细拟合数据（类似于Export 导出的数据），同样可以通过File—SaveAs 将数据导出到文件中。</p>
 <p>Evaluation：对拟合结果进行评估（很少用）。</p>
 <p>Residuals：查看拟合结果残差。</p>
-<p>参考文献：</p>
-<p>拉曼和红外数据处理操作可参考下列文献：</p>
-<p>R. Gautam, S. Vanga, F. Ariese and S. Umapathy, 2015. Review of multidimensional dataprocessing approaches for Raman and infrared spectroscopy. EPJ Techniques andInstrumentation. 2:8（DOI: 10.1140/epjti/s40485-015-0018-6）。</p>
-<p>光谱数据前处理（平滑、标准化等）可参考下列文献：</p>
-<p>K. H. Liland, A. Kohler and N. K. Afseth, 2015. Model-based pre-processing in Ramanspectroscopy of biological samples. Journal of Raman Spectroscopy. 47, 643–650 （ DOI:10.1002/jrs.4886）。</p>
-<p>T. W. Randolph, 2006. Scale-based normalization of spectral data. Cancer Biomarkers, 2006,2(3): 135-144.（DOI: 10.3233/CBM-2006-23-405）。</p>
-<p>谱峰拟合方程选择可参考下列文献：</p>
-<p>X. Yuan and R. A. Mayanovic, 2017. An Empirical Study on Raman Peak Fitting and ItsApplication to Raman Quantitative Research. Applied Spectroscopy. (DOI:10.1177/0003702817721527)</p>
 ]]></content>
+      <categories>
+        <category>科研软件</category>
+      </categories>
       <tags>
-        <tag>软件</tag>
+        <tag>科研软件</tag>
       </tags>
   </entry>
   <entry>
-    <title>物理吸附数据分析</title>
-    <url>/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.html</url>
-    <content><![CDATA[<p>孔径分布坐标分析</p>
-<span id="more"></span>
-<p>来源：小木虫论坛</p>
-<p>BJH的孔径分布曲线的纵坐标有两种：dV/dD和dV/dlogD。前者的单位是cm^3^/(g·nm)，后者的单位是cm^3^/g。<br>其中V代表吸附量，D代表孔径（diameter）。D是由相对压力(p/p<del>0</del>)经Kelvin方程后校正后换算得到的，相对压力越高，D越大。<br>因此初始的吸附等温线上（V<del>(STP)</del>对p/p<del>0</del>）就可以演算成V对D曲线，而dV/dD就是该曲线各点的微分。由此，我们可以得出：在等温线上，某一压力区域的吸附曲线如果越陡峭的，那在这个分压区孔径分布最为集中。</p>
-<p>根据简单的微分计算，dV/dlogD = 2.3026×D×dV/dD<br>在这种情况下，对同一个吸附或脱附支使用dV/dD或dV/dlogD就会得到不同形状的曲线，前者会把小孔径小区域的分布放大，而后者会把大孔径小区域的分布放大。但是总的来说，孔径分布的主峰位置不会改变。<br>至于究竟使用dV/dD和dV/dlogD，一般文献使用dV/dD比较多。</p>
+    <title>科研成果</title>
+    <url>/%E7%A7%91%E7%A0%94%E6%88%90%E6%9E%9C.html</url>
+    <content><![CDATA[<ol>
+<li><strong>Kun-Lang Lu</strong>, Xian-Yong Wei<sup>+</sup>, et al. Solvent effect on the hydroconversion of lignin-related model compounds over MoO<sub>3</sub>, Energy Fuels 2021, 35, 12142-12150.  (已出版)</li>
+<li><strong>Kun-Lang Lu</strong>, Fan Yin, et al. Promotional effect of metallic cobalt and iron on nickel-based catalysts for the deoxygenation of lignin derivatives. J. Catal.  (审稿中)</li>
+<li>Fan Yin, <strong>Kun-Lang Lu</strong>, et al. Fabrication of N/O self-doped hierarchical porous carbons derived from modified coal tar pitch for high-performance supercapacitors. Fuel (修稿中)</li>
+<li>Fan Yin, Xian-Yong Wei<sup>+</sup>, Wei-Wei Yan, Zi-Chun Fan, <strong>Kun-Lang Lu</strong>, et at. Preparation of hierarchical porous carbons from a coal tar pitch modified by fluid catalytic cracking oil for a high-performance supercapacitor, J. Mater. Sci. (已出版)</li>
+</ol>
 ]]></content>
   </entry>
   <entry>
     <title>物质质量百分含量计算</title>
     <url>/%E7%89%A9%E8%B4%A8%E8%B4%A8%E9%87%8F%E7%99%BE%E5%88%86%E5%90%AB%E9%87%8F%E8%AE%A1%E7%AE%97.html</url>
     <content><![CDATA[<p>建立峰面积和质量百分含量的关系:</p>
-<span id="more"></span>
-
 <blockquote>
 <p><em>计算的理论基础是带校正因子的面积归一化法</em></p>
 </blockquote>
 <ul>
-<li><p>配制含有水和乙醇的标准溶液，并准确测定标准溶液的体积、含有的水和乙醇的质量。即：容量瓶，加入少量水，定量加入乙醇(加入的乙醇量按照体积百分比为80 %的乙醇溶液计算)，然后用水定容至刻度，分步称重；</p>
-</li>
+<li>配制含有水和乙醇的标准溶液，并准确测定标准溶液的体积、含有的水和乙醇的质量。即：容量瓶，加入少量水，定量加入乙醇(加入的乙醇量按照体积百分比为80 %的乙醇溶液计算)，然后用水定容至刻度，分步称重；</li>
+</ul>
+<span id="more"></span>
+<ul>
 <li><p>精确测量标准溶液和待测溶液进样量；</p>
 </li>
 <li><p>分别计算水和乙醇相对校正因子(以乙醇相对校正因子为1)；</p>
@@ -245,15 +272,23 @@
 <p>乙醇的校正因子 = 标准溶液中乙醇的重量/乙醇的峰面积</p>
 <p>水的相对校正因子 = 水的校正因子/乙醇的校正因子</p>
 <p>乙醇的相对校正因子 = 乙醇的校正因子/乙醇的校正因子=1</p>
-<ul>
-<li>待测样品中水和乙醇的质量百分含量计算如下：</li>
-</ul>
+</li>
+<li><p>待测样品中水和乙醇的质量百分含量计算如下：</p>
 <p>水的质量百分含量 = (水的峰面积 × 水的相对校正因子)/(水的峰面积 × 水的相对校正因子 + 乙醇的峰面积 × 乙醇的相对校正因子)</p>
 <p>乙醇的质量百分含量 = (乙醇的峰面积 × 乙醇的相对校正因子)/(水的峰面积 × 水的相对校正因子 + 乙醇的峰面积 × 乙醇的相对校正因子)</p>
 </li>
 <li><p>相对校正因子只用定期测定一次即可。</p>
 </li>
 </ul>
+]]></content>
+      <tags>
+        <tag>校正因子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>移动端功能说明</title>
+    <url>/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%8A%9F%E8%83%BD%E6%8F%90%E7%A4%BA.html</url>
+    <content><![CDATA[<p>移动端的🔍搜索、📚分类、🔖标签和📂归档功能见页面底部。</p>
 ]]></content>
   </entry>
 </search>
