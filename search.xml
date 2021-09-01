@@ -61,8 +61,8 @@
   </entry>
   <entry>
     <title>关于我</title>
-    <url>/about.html</url>
-    <content><![CDATA[<h3 id="基本情况"><a href="#基本情况" class="headerlink" title="基本情况"></a>基本情况</h3><p>卢琨朗，中国矿业大学硕士研究生，师从宗志敏教授，致力于生物质催化转化的研究。邮箱📧:<a href="mailto:&#x6c;&#x75;&#107;&#x75;&#110;&#108;&#x61;&#x6e;&#x67;&#64;&#x31;&#x36;&#x33;&#x2e;&#99;&#111;&#109;">&#x6c;&#x75;&#107;&#x75;&#110;&#108;&#x61;&#x6e;&#x67;&#64;&#x31;&#x36;&#x33;&#x2e;&#99;&#111;&#109;</a></p>
+    <url>/%E5%85%B3%E4%BA%8E%E6%88%91.html</url>
+    <content><![CDATA[<h3 id="基本情况"><a href="#基本情况" class="headerlink" title="基本情况"></a>基本情况</h3><p>卢琨朗，中国矿业大学硕士研究生，师从宗志敏教授，致力于生物质催化转化的研究。邮箱📧:<a href="mailto:&#x6c;&#x75;&#x6b;&#117;&#x6e;&#108;&#97;&#x6e;&#x67;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#111;&#x6d;">&#x6c;&#x75;&#x6b;&#117;&#x6e;&#108;&#97;&#x6e;&#x67;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#111;&#x6d;</a></p>
 <h3 id="教育背景"><a href="#教育背景" class="headerlink" title="教育背景"></a>教育背景</h3><ul>
 <li><p>2019.09-至今<br>硕士，中国矿业大学，化学工程专业</p>
 </li>
@@ -85,22 +85,6 @@
 </li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>物理吸附数据分析</title>
-    <url>/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.html</url>
-    <content><![CDATA[<p>孔径分布坐标分析</p>
-<p>BJH的孔径分布曲线的纵坐标有两种：dV/dD和dV/dlogD。前者的单位是cm<sup>3</sup>/(g·nm)，后者的单位是cm<sup>3</sup>/g。<br>其中V代表吸附量，D代表孔径（diameter）。D是由相对压力(p/p<sub>0</sub>)经Kelvin方程后校正后换算得到的，相对压力越高，D越大。<br>因此初始的吸附等温线上（V<sub>(STP)</sub>对p/p<sub>0</sub>）就可以演算成V对D曲线，而dV/dD就是该曲线各点的微分。由此，我们可以得出：在等温线上，某一压力区域的吸附曲线如果越陡峭的，那在这个分压区孔径分布最为集中。</p>
-<span id="more"></span>
-
-<p>根据简单的微分计算，dV/dlogD = 2.3026×D×dV/dD<br>在这种情况下，对同一个吸附或脱附支使用dV/dD或dV/dlogD就会得到不同形状的曲线，前者会把小孔径小区域的分布放大，而后者会把大孔径小区域的分布放大。但是总的来说，孔径分布的主峰位置不会改变。<br>至于究竟使用dV/dD还是dV/dlogD，一般文献使用dV/dD比较多。</p>
-]]></content>
-      <categories>
-        <category>表征技术</category>
-      </categories>
-      <tags>
-        <tag>物理吸附</tag>
-      </tags>
   </entry>
   <entry>
     <title>利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）</title>
@@ -236,6 +220,22 @@
       <categories>
         <category>科研软件</category>
       </categories>
+  </entry>
+  <entry>
+    <title>物理吸附数据分析</title>
+    <url>/%E7%89%A9%E7%90%86%E5%90%B8%E9%99%84%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.html</url>
+    <content><![CDATA[<p>孔径分布坐标分析</p>
+<p>BJH的孔径分布曲线的纵坐标有两种：dV/dD和dV/dlogD。前者的单位是cm<sup>3</sup>/(g·nm)，后者的单位是cm<sup>3</sup>/g。<br>其中V代表吸附量，D代表孔径（diameter）。D是由相对压力(p/p<sub>0</sub>)经Kelvin方程后校正后换算得到的，相对压力越高，D越大。<br>因此初始的吸附等温线上（V<sub>(STP)</sub>对p/p<sub>0</sub>）就可以演算成V对D曲线，而dV/dD就是该曲线各点的微分。由此，我们可以得出：在等温线上，某一压力区域的吸附曲线如果越陡峭的，那在这个分压区孔径分布最为集中。</p>
+<span id="more"></span>
+
+<p>根据简单的微分计算，dV/dlogD = 2.3026×D×dV/dD<br>在这种情况下，对同一个吸附或脱附支使用dV/dD或dV/dlogD就会得到不同形状的曲线，前者会把小孔径小区域的分布放大，而后者会把大孔径小区域的分布放大。但是总的来说，孔径分布的主峰位置不会改变。<br>至于究竟使用dV/dD还是dV/dlogD，一般文献使用dV/dD比较多。</p>
+]]></content>
+      <categories>
+        <category>表征技术</category>
+      </categories>
+      <tags>
+        <tag>物理吸附</tag>
+      </tags>
   </entry>
   <entry>
     <title>物质质量百分含量计算</title>

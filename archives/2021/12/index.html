@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     
-    <title>XPSPEAK分峰拟合要点 | 初学者 lklang</title>
+    <title>Archive | 2021/12 | 初学者 lklang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     
@@ -32,7 +32,7 @@
 
 
     <script>
-        window.isPost = true
+        window.isPost = false
         window.aomori = {
             
             
@@ -135,162 +135,35 @@
         <div class="main">
             <section class="inner">
                 <section class="inner-main">
-                    <div class="post">
-    <article id="post-ckt1sy9g40006a8fd2e0o8kty" class="article article-type-post" itemscope
-    itemprop="blogPost">
+                    <section class="archives-cover"></section>
 
-    <div class="article-inner">
 
-        
-          
-        
-        
-        
-
-        
-        <header class="article-header">
-            
+    
+    
+    
+    
+    <section class="archives-wrap">
+        <div class="archive-year-wrap">
+        <a href="/archives/2021" class="archive-year">2021</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
   
-    <h1 class="article-title" itemprop="name">
-      XPSPEAK分峰拟合要点
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/%E5%85%B3%E4%BA%8E%E6%88%91.html">关于我</a>
     </h1>
   
-
-        </header>
-        
-
-        <div class="article-more-info article-more-info-post hairline">
-
-            <div class="article-date">
-  <time datetime="2021-01-01T14:37:25.000Z" itemprop="datePublished">2021-01-01</time>
-</div>
-
-            
-            <div class="article-category">
-                <a class="article-category-link" href="/categories/%E7%A7%91%E7%A0%94%E8%BD%AF%E4%BB%B6/">科研软件</a>
-            </div>
-            
-
-            
-
-            
-            <div class="article-busuanzi">
-                有 <span id="busuanzi_value_page_pv">N</span> 人看过
-            </div>
-            
-
-        </div>
-
-        <div class="article-entry post-inner-html hairline" itemprop="articleBody">
-            <ol>
-<li>荷电校正</li>
-</ol>
-<p>当用XPS测量绝缘体或者半导体时，由于光电子的连续发射而得不到电子补充，使得样品表面出现电子亏损，这种现象称为“荷电效应”。</p>
-<p>荷电效应将使样品表面出现一稳定的电势V<sub>s</sub>，对电子的逃离有一定束缚作用。因此荷电效应将引起能量的位移，使得测量的结合能偏离真实值，造成测试结果的偏差。在用XPS测量绝缘体或者半导体时，需要对荷电效应所引起的偏差进行校正，称之为“荷电校正”。</p>
-<span id="more"></span>
-
-<ul>
-<li>将C1<em>s</em>的数据复制到origin中，做成曲线图，并通过数据读取工具来识别C1<em>s</em>谱中的峰值坐标，以其与C1<em>s</em>标准值(284.8 eV)之差作为荷电校正值(Δ)来矫正其他元素的结合能。</li>
-</ul>
-<ol start="2">
-<li>约束条件</li>
-</ol>
-<p>峰位置、半峰宽(FWHM)、峰强度(面积)</p>
-<ul>
-<li><p>峰位置差值：参考<a target="_blank" rel="noopener" href="https://xpssimplified.com/periodictable.php">XPS元素表</a></p>
-</li>
-<li><p>FWHM：同一价态相等</p>
-</li>
-<li><p>峰面积：<br>2<em>p</em><sub>1/2</sub> : 2<em>p</em><sub>3/2</sub> = 1 : 2<br>3<em>d</em><sub>3/2</sub> : 3<em>d</em><sub>5/2</sub> = 2 : 3<br>4<em>f</em><sub>5/2</sub> : 4<em>f</em><sub>7/2</sub> = 3 : 4</p>
-</li>
-<li><p>过渡金属2p轨道谱线不对称</p>
-</li>
-<li><p>价态越高对应结合能越高</p>
-</li>
-</ul>
-
-        </div>
-
-    </div>
-
-    
-
-    
-
-    
-  <div class="article-refer hairline">
-    <h3>文章参考文献</h3>
-    
-    <p>
-      <a target="_blank" rel="nofollow" href="url">归纳总结于网络，操作步骤移步B站。</a>
-    </p>
-    
-  </div>
-  
-
-    
-<div class="article-copyright hairline">
-  <p>
-    本作品采用 <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a> 进行许可。
-  </p>
-</div>
-
-
-    
-
-    
-<nav class="article-nav">
-  
-    <a href="/%E5%88%A9%E7%94%A8PeakFit%E5%A4%84%E7%90%86%E6%8B%89%E6%9B%BC%E5%85%89%E8%B0%B1%E6%95%B0%E6%8D%AE%E6%95%99%E7%A8%8B%EF%BC%88%E5%90%AB%E6%A0%87%E5%87%86%E5%8C%96%E3%80%81%E5%B9%B3%E6%BB%91%E3%80%81%E5%8E%BB%E5%9F%BA%E7%BA%BF%E3%80%81%E5%AF%BB%E5%B3%B0%E3%80%81%E6%8B%9F%E5%90%88%E7%AD%89%E6%93%8D%E4%BD%9C%EF%BC%89.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <div class="article-nav-caption">下一篇</div>
-      <div class="article-nav-title">
-        
-          利用PeakFit处理拉曼光谱数据教程（含标准化、平滑、去基线、寻峰、拟合等操作）
-        
-      </div>
-    </a>
-  
-  
-    <a href="/%E7%89%A9%E8%B4%A8%E8%B4%A8%E9%87%8F%E7%99%BE%E5%88%86%E5%90%AB%E9%87%8F%E8%AE%A1%E7%AE%97.html" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-caption">上一篇</div>
-      <div class="article-nav-title">物质质量百分含量计算</div>
-    </a>
-  
-</nav>
-
-
-    <section class="share">
-        <div class="share-title">分享</div>
-        <a class="share-item" target="_blank"
-            href="https://twitter.com/share?text=XPSPEAK分峰拟合要点 - 初学者 lklang&url=https://lklang.github.io/XPSPEAK%E5%88%86%E5%B3%B0%E6%8B%9F%E5%90%88%E8%A6%81%E7%82%B9.html">
-            <box-icon type='logo' name='twitter'></box-icon>
-        </a>
-        <a class="share-item" target="_blank"
-            href="https://www.facebook.com/sharer.php?title=XPSPEAK分峰拟合要点 - 初学者 lklang&u=https://lklang.github.io/XPSPEAK%E5%88%86%E5%B3%B0%E6%8B%9F%E5%90%88%E8%A6%81%E7%82%B9.html">
-            <box-icon name='facebook-square' type='logo' ></box-icon>
-        </a>
-        <!-- <a class="share-item" target="_blank"
-            href="https://service.weibo.com/share/share.php?title=XPSPEAK分峰拟合要点 - 初学者 lklang&url=https://lklang.github.io/XPSPEAK%E5%88%86%E5%B3%B0%E6%8B%9F%E5%90%88%E8%A6%81%E7%82%B9.html&pic=">
-            <div class="n-icon n-icon-weibo"></div>
-        </a> -->
-    </section>
 
 </article>
 
 
+    </div></section>
 
 
 
 
-
-
-
-
-
-
-<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-</div>
                 </section>
             </section>
 
@@ -312,12 +185,6 @@
 <div class="widget" id="widget">
     
       
-  <div class="widget-wrap">
-    <div class="widget-inner">
-      <div class="toc post-toc-html"></div>
-    </div>
-  </div>
-
     
       
   <div class="widget-wrap widget-cate">
